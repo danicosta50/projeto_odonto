@@ -293,8 +293,8 @@ public class PacienteEditar extends javax.swing.JFrame {
     }//GEN-LAST:event_BtnPacientes5ActionPerformed
 
     private void BtnPacientes8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnPacientes8ActionPerformed
-       // Ficha ficha = new Ficha(paciente);
-      //  ficha.setVisible(true);
+       Ficha ficha = new Ficha(paciente);
+       ficha.setVisible(true);
     }//GEN-LAST:event_BtnPacientes8ActionPerformed
 
     private void BtnPacientes10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnPacientes10ActionPerformed

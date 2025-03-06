@@ -29,7 +29,29 @@ import javax.swing.JOptionPane;
           }
       }
  
+public List<consulta> listar(String nome) {  
+    EntityManager em = JPAUtil.getEntityManager();
+    try {
+        String textoquery = " SELECT C FROM consulta C "
+                + "WHERE (:nome is null OR C.nomePaciente LIKE :nome ) "
+               ;
+        Query consultaSql = em.createQuery(textoquery);     
+        
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        
+       
+        consultaSql.setParameter("nome", nome.isEmpty() ? null : "%" + nome + "%" );       
 
+        List<consulta> consultasLista = consultaSql.getResultList();
+        return consultasLista;
+    } catch(Exception e) {
+        em.getTransaction().rollback();
+        JOptionPane.showMessageDialog(null, "Erro ao listar consultas: " + e);
+        throw e;
+    } finally {
+        JPAUtil.closeEntityManager();
+    }
+}
 public List<consulta> listar(String nome, String dataIni, String dataFim) {  
     EntityManager em = JPAUtil.getEntityManager();
     try {
