@@ -128,6 +128,7 @@ public class Lista_Consultas extends javax.swing.JPanel {
         TxtDataFim.setBackground(new java.awt.Color(255, 255, 255));
         TxtDataFim.setForeground(new java.awt.Color(0, 0, 0));
 
+        TabelaListaConsultas.setBackground(new java.awt.Color(255, 255, 255));
         TabelaListaConsultas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -165,8 +166,7 @@ public class Lista_Consultas extends javax.swing.JPanel {
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(54, 54, 54)))
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(76, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(

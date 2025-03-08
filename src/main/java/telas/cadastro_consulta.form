@@ -78,18 +78,20 @@
                                               <Component id="TxtCPF" alignment="0" min="-2" pref="114" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+                                      <Component id="jLabel1" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" pref="169" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel6" min="-2" pref="164" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="Check_Pago" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel6" alignment="0" pref="164" max="32767" attributes="0"/>
+                                          </Group>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="TxtValor" min="-2" pref="93" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="TxtValor" min="-2" pref="106" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                                           <Component id="BtnPacientes4" min="-2" pref="128" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                           <Component id="BtnPacientes8" min="-2" pref="91" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="Check_Pago" alignment="0" min="-2" pref="182" max="-2" attributes="0"/>
-                                      <Component id="jLabel1" alignment="0" min="-2" pref="115" max="-2" attributes="0"/>
-                                      <Component id="jLabel3" alignment="0" min="-2" pref="169" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -123,7 +125,7 @@
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                  <EmptySpace pref="58" max="32767" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="67" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">

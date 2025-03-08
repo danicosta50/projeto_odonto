@@ -209,6 +209,9 @@ private void carregarTabela(Date dataInicio, Date dataFim, String nomePaciente, 
             }
         });
 
+        TabelaModelo.setBackground(new java.awt.Color(255, 255, 255));
+
+        TabelaListaConsultas.setBackground(new java.awt.Color(255, 255, 255));
         TabelaListaConsultas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
