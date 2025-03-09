@@ -26,8 +26,8 @@ public class paciente {
     private String email;
     private String Historico_medico;
     private String orcamento;
+    private int valor_orcamento;
      
-     private String Data_orcamento;
 
     public paciente() {
     }
@@ -43,12 +43,18 @@ public class paciente {
         this.email = email;
         this.Historico_medico = "";
         this.orcamento = "";
-        this.Data_orcamento =" ";
+        this.valor_orcamento = 0;
     }
 
-    public void setData_orcamento(String Data_orcamento) {
-        this.Data_orcamento = Data_orcamento;
+    public int getValor_orcamento() {
+        return valor_orcamento;
     }
+
+    public void setValor_orcamento(int valor_orcamento) {
+        this.valor_orcamento = valor_orcamento;
+    }
+
+   
 
 
 
@@ -62,10 +68,7 @@ public class paciente {
         this.orcamento = orcamento;
     }
 
-    public String getData_orcamento() {
-        return Data_orcamento;
-    }
-
+    
   
      
     public void setId(int id) {
